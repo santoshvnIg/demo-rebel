@@ -1,0 +1,88 @@
+@import "../../Sass/partial/variable";
+#Employeetable{}
+th {
+  background-color: $blue-1 !important;
+  color: $blue !important;
+}
+td {
+  text-align: center;
+}
+tr {
+  text-align: center;
+}
+.table-height {
+  height: 70vh !important;
+}
+
+.table-height-auto {
+  height: 50rem !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: none !important;
+}
+
+.input-group {
+  width: 40% !important;
+}
+
+.main {
+  border: 1px;
+  border-style: ridge;
+  padding: 1rem;
+  @media screen and (max-width: $medium) {
+    margin-left: 0.5rem;
+  }
+}
+
+.edite {
+  color: #15729c !important;
+}
+.delete-button {
+  background-color: #15729c !important;
+  color: #ffffff !important;
+}
+.delete {
+  color: #15729c;
+}
+.active {
+  color: #15729c !important;
+}
+.inactive {
+  color: rgb(145 138 138);
+}
+
+.filtername {
+  width: 128px;
+
+  height: 40px;
+
+  border: 1px solid #15729c;
+
+  text-align: center;
+
+  color: #15729c;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  border-radius: 5px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: #15729c 1.95px 1.95px 2.6px;
+}
+@media (max-width: 767px) {
+  .input-group {
+    width: 100% !important;
+  }
+  .filtername {
+    width: 97px !important;
+    height: 38px !important;
+  }
+}

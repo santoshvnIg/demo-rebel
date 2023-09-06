@@ -1,0 +1,38 @@
+.hospital-modal-body {
+  padding: 1rem !important;
+  .modal-body {
+    padding: 1rem;
+  }
+  .nav-tabs {
+    justify-content: space-around !important;
+  }
+  .hospital-entry {
+    background-color: #edf9ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+ 
+
+  .hospital-lebel {
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #64748b;
+    }
+  }
+}
+
+.footer-hospital {
+  display: flex !important;
+  flex-wrap: inherit !important;
+}
+
+.hospital-entry {
+  background-color: #edf9ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+}

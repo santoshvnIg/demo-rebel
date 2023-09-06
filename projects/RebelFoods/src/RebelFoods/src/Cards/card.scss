@@ -1,0 +1,58 @@
+@import "../Sass/partial/variable";
+
+.card-body {
+  box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.1),
+    0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding-top: 2rem;
+  border-radius: 10px;
+}
+.card {
+  border: none !important;
+}
+
+.moneyicondiv {
+  padding-left: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 14px;
+  background: $blue;
+  margin-top: 10px;
+  border-radius: 11px;
+  margin-right: 1rem;
+  .moneyicon {
+    font-size: $fs-20;
+    color: $white;
+  }
+}
+
+.count {
+  font-style: normal;
+  font-weight: $fw-regular;
+  font-size: $fs-36;
+  line-height: 4rem;
+  color: $color-gray-2;
+}
+.heading {
+  font-style: normal;
+  font-weight: $fw-medium;
+  font-size: $fs-20;
+  line-height: 20px;
+  color: $color-gray-2;
+}
+
+.cardemployee {
+  width: 20rem;
+  height: 160px;
+  @media screen and (max-width: $medium) {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+.formselect {
+  width: 7rem;
+  font-size: $fs-14;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}

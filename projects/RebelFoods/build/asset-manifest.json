@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.942d9d12.css",
+    "main.js": "/static/js/main.02c7da37.js",
+    "static/media/homepage bg.png": "/static/media/homepage bg.147cf7f651e2dc7f653b.png",
+    "static/media/loginpic.png": "/static/media/loginpic.603353dbe63bc797e6fb.png",
+    "static/media/logo.png": "/static/media/logo.3c7e172812c5ca982c2f.png",
+    "index.html": "/index.html",
+    "static/media/payroll.csv": "/static/media/payroll.d97f1f3204a2bf517838.csv",
+    "main.942d9d12.css.map": "/static/css/main.942d9d12.css.map",
+    "main.02c7da37.js.map": "/static/js/main.02c7da37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.942d9d12.css",
+    "static/js/main.02c7da37.js"
+  ]
+}

@@ -1,0 +1,299 @@
+@import "../../../../RebelFoods/src/Sass/partial/variable";
+.bg-body-tertiar {
+  background-color: #ffffff !important;
+  box-shadow: 2px 0px 5px 0;
+
+  position: absolute;
+  width: 100%;
+
+  .btn-primary {
+    background-color: $blue-2;
+    border: none !important;
+  }
+  .btn:active {
+    color: #15729c !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+  }
+  .btn:hover {
+    color: #15729c;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  @media (max-width: 767px) {
+    .logout-button {
+      width: 5rem;
+      height: 2.2rem !important;
+    }
+    .imgicon {
+      width: 81% !important;
+      height: 38px !important;
+    }
+  }
+  .imgicon {
+    width: 35%;
+  }
+  .logout-button {
+    width: 10rem;
+    left: 30px;
+    /* background-color: #FF0000 !important; */
+    background: #ffffff;
+    color: #15729c;
+    border: none;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.3s;
+  }
+
+  .cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
+  .bg-body-tertiary {
+    background-color: #ffffff !important;
+    box-shadow: 2px 2px 14px -1px;
+  }
+  .navbar-toggler {
+    width: auto !important;
+  }
+
+  .link-header {
+    display: flex;
+    color: #8b8b8b;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  .link-header.active {
+    color: #15729c;
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  .offcanvas-header-white {
+    background-color: #ffffff !important;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .clock-logo {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 2px 1px;
+  }
+  ul {
+    list-style-type: none !important;
+  }
+  li {
+    margin-bottom: 0px;
+    margin-right: 1rem !important;
+    font-size: 15px;
+    margin-top: 1rem;
+    cursor: pointer;
+    list-style-type: none !important;
+    // width: 7rem !important;
+  }
+
+  .cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.9s;
+  }
+
+  .cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
+  @media (min-width: 600px) {
+    .mobile-link {
+      display: none !important;
+    }
+    .link-header {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .logout-button {
+    }
+    .navbar-toggler {
+      border: none !important;
+    }
+  }
+
+  @import "../../../../RebelFoods/src/Sass/partial/variable";
+  .bg-body-tertiar {
+    background-color: #ffffff !important;
+    box-shadow: 2px 0px 5px 0;
+  }
+  .btn-primary {
+    background-color: $blue-2;
+    border: none !important;
+  }
+  .btn:active {
+    color: #15729c !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+  }
+  .btn:hover {
+    color: #15729c;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  @media (max-width: 767px) {
+    .logout-button {
+      width: 5rem;
+      height: 2.2rem !important;
+    }
+    .imgicon {
+      width: 81% !important;
+      height: 38px !important;
+    }
+  }
+  .imgicon {
+    width: 55%;
+  }
+  .logout-button {
+    width: 10rem;
+    left: 30px;
+    /* background-color: #FF0000 !important; */
+    background: #ffffff;
+    color: #15729c;
+    border: none;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.3s;
+  }
+
+  .cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
+  .emp-url{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .bg-body-tertiary {
+    background-color: #ffffff !important;
+    box-shadow: 2px 2px 14px -1px;
+  }
+  .navbar-toggler {
+    width: auto !important;
+  }
+
+  .link-header {
+    display: flex;
+    color: #8b8b8b;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  .link-header.active {
+    color: #15729c;
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  .offcanvas-header {
+    background-color: #15729c !important;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .clock-logo {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 2px 1px;
+  }
+
+  li {
+    margin-bottom: 0px;
+    margin-right: 2rem !important;
+    font-size: 17px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+
+  .cool-link {
+    display: inline-block;
+    color: #15729c;
+    text-decoration: none;
+  }
+
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 2px;
+    background: #15729c;
+    transition: width 1s;
+  }
+  a{
+    color: #15729c ;
+    text-decoration: none !important;
+  }
+  .cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+  }
+  @media (min-width: 600px) {
+    .mobile-link {
+      display: none !important;
+    }
+    .link-header {
+      display: none;
+    }
+  }
+  .emp-login{
+    color: #15729c;
+    text-decoration: none !important;
+    
+  }
+
+  @media (max-width: 600px) {
+    .logout-button {
+    }
+    .navbar-toggler {
+      border: none !important;
+    }
+    .imgicon {
+      width: 81% !important;
+      height: 38px !important;
+    }
+    .emp-url{
+      display: flex;
+      justify-content: flex-end;
+     
+    }
+    .emp-login{
+      color: #15729c !important;
+      text-decoration: none !important;
+      
+    }
+  }
+}

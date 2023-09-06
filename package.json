@@ -15,7 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:RebelFoods": "cd projects/RebelFoods && npm start",
+    "start:project2": "cd projects/project2 && npm start",
+    "build:RebelFoods": "cd projects/RebelFoods && npm run build",
+    "build:project2": "cd projects/project2 && npm run build"
   },
   "eslintConfig": {
     "extends": [

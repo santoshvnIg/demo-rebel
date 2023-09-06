@@ -1,0 +1,22 @@
+.logoutModel{
+    .closebutton{
+        width: 8rem !important;
+    }
+    .logoutbutton{
+        width: 8rem !important;
+    }
+
+    .modal-body {
+        font-size: 20px;
+        position: relative;
+        flex: 1 1 auto;
+        padding: 10px !important;
+        color: #64748b;
+        font-weight: 500;
+        height: 6rem;
+
+        .red-text{
+            color: red;
+        }
+    }
+}

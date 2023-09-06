@@ -1,0 +1,31 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    32deg,
+    rgba(175, 225, 254, 0.5271358543417367) 0%,
+    rgba(255, 255, 255, 0.5019257703081232) 36%,
+    rgba(255, 255, 255, 0.48511904761904767) 68%,
+    rgba(175, 225, 254, 0.5327380952380952) 100%
+  );
+
+  h1 {
+    text-align: left;
+    font: normal normal bold 37px/40px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  p {
+    text-align: center;
+    font: normal normal normal 15px/28px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+}

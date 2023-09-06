@@ -1,0 +1,134 @@
+@import "../../Sass/partial/variable";
+#transectiontable {
+  th {
+    background-color: $blue-1 !important;
+    color: $blue !important;
+    text-align: center;
+  }
+  td {
+    text-align: center !important;
+    word-wrap: break-word !important;
+  }
+
+  .table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: none !important;
+  }
+
+  .table-height {
+    height: 70vh !important;
+  }
+
+  .table-height-auto {
+    height:  60rem!important;
+  }
+
+  .main {
+    border: 1px;
+    border-style: ridge;
+    padding: 1rem;
+    @media screen and (max-width: $medium) {
+      margin-left: 0.5rem;
+    }
+  }
+  .web {
+    .input-group {
+      width: 40% !important;
+    }
+  }
+  .mobile {
+    .input-group {
+      width: 100% !important;
+      height: 2.5rem;
+    }
+  }
+
+  .datestyle {
+    width: 165px;
+
+    height: 40px;
+
+    text-align: center;
+
+    color: grey;
+
+    background: #f6f6f6;
+
+    border: 1px solid #c8c8c8;
+
+    border-color: #c8c8c8;
+
+    border-radius: 6px;
+  }
+
+  .filtername {
+    width: 128px;
+
+    height: 40px;
+
+    border: 1px solid #15729c;
+
+    text-align: center;
+
+    color: #15729c;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 5px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+    font-size: 15px;
+
+    box-shadow: #15729c 1.95px 1.95px 2.6px;
+  }
+
+  .addFunds {
+    width: 149px;
+
+    height: 40px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 5px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+    background-color: #15729c;
+  }
+  .icon-download{
+    color: #15729c;
+    font-size: 20px;
+    margin-left: 27px;
+    
+  }
+
+  .icon-download:hover{
+    font-size: 25px;
+  }
+
+  @media (min-width: 768px) and (max-width: 4000px) {
+    .mobile {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .web {
+      display: none !important;
+    }
+  }
+}

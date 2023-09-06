@@ -1,0 +1,37 @@
+@import "../../src/Sass/partial/variable";
+#skeletontable {
+  th {
+    background-color: $blue-1 !important;
+    color: $blue !important;
+  }
+
+  .table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: none !important;
+  }
+
+  .input-group {
+    width: 40% !important;
+  }
+
+  .main {
+    border: 1px;
+    border-style: ridge;
+    padding: 1rem;
+    @media screen and (max-width: $medium) {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .edite {
+    color: green;
+  }
+  .delete {
+    color: red;
+  }
+  .active {
+    color: #0f0fb2;
+  }
+  .table-height {
+    height: auto !important;
+  }
+}

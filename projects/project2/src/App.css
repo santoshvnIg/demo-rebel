@@ -1,0 +1,19 @@
+.fading-text {
+  text-align: center;
+  animation: fade 2s ease infinite;
+}
+
+.content {
+  font-size: 24px;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

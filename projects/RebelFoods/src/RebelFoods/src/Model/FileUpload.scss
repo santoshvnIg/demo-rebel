@@ -1,0 +1,58 @@
+.modal-footer {
+  border: none !important;
+}
+
+
+.modal-body {
+  font-size: 20px;
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0 !important;
+  color: #64748b;
+  font-weight: 500;
+}
+
+p {
+  font-size: 15px;
+  color: #64748b;
+}
+.cancel-button {
+  background-color: #ffffff;
+  color: #64748b;
+  width: auto;
+}
+.save-Button {
+  background-color: #15729c;
+  width: auto;
+}
+.file-upload {
+  display: inline-block;
+}
+
+.file-upload-label {
+  background-color: #f8f9fa;
+  padding: 8px 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+h {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.cancel-button:hover {
+  background-color: #ffffff;
+  color: #64748b;
+  width: auto;
+}
+.save-Button:hover {
+  background-color: #15729c;
+  width: auto;
+}
+.download {
+  cursor: pointer;
+  color: #15729c;
+}
