@@ -94,7 +94,7 @@ const Login = () => {
           {error && <p className="error">{error}</p>}
 
 
-          <button type="submit">Login</button>
+          <button type="submit">Logins</button>
         </form>
         <ToastContainer
           position="top-right"
